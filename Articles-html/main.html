@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello!</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pygments/2.16.1/styles/monokai.min.css">
+</head>
+<body>
+<div style="display:flex; align-items:center; justify-content:space-between; padding:10px 0;">
+    <div style="display:flex; align-items:center;">
+        <a href="/main" style="text-decoration:none; color:inherit; display:flex; align-items:center; cursor:pointer;">
+            <img src="../Images/logo.png" alt="Logo" style="max-height:60px; margin-right:15px;">
+            <h1 style="margin:0; font-size:3em; font-style: normal;">Raven</h1>
+        </a>
+    </div>
+    <div style="text-align:right;">
+        <a href="/About" style="margin-left:15px; font-size:1.33em">About</a> <a href="/Special Thanks" style="margin-left:15px; font-size:1.33em">Thanks</a>
+    </div>
+</div>
+<hr style="border:none; height:2px; background-color:#ccc;">
+<h1 style="margin:0; font-size:3em; font-style: normal;">Hello!</h1>
+<div style="font-size:0.9em; margin-bottom: 10px;">11 December 2025, 17:13</div>
+<p>Welcome to <strong><em>Raven</em></strong>, a <em>barebones</em> CMS made in <a href="https://python.org" title="Python">Python!</a></p>
+<h2 id="features">Features</h2>
+<ul>
+<li>All of <a href="https://daringfireball.net/projects/markdown/" title="Markdown">Markdown</a></li>
+<li>Lots of markdown extensions</li>
+<li><a href="https://daringfireball.net/projects/smartypants/" title="SmartyPants">SmartyPants</a> formatting</li>
+<li>Put an image in the <code>Images</code> folder and link it like this: <code>![Alt text](Images/img.jpg)</code></li>
+</ul>
+<h2 id="planned-features">Planned Features</h2>
+<ul>
+<li>Admin Frontend with menus for:  </li>
+<li>Writing  </li>
+<li>Publishing  </li>
+<li>Analytics  </li>
+<li>Layout and Styling Config</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<h3 id="images">Images</h3>
+<p><code>![Bird](Images/raven.jpg)</code><br>
+<img alt="Bird" src="Images/raven.jpg"></p>
+<h3 id="smartypants">SmartyPants</h3>
+<p><code>--</code> → &ndash;</p>
+<h3 id="markdown-table">Markdown Table</h3>
+<table>
+<thead>
+<tr>
+<th>Nice</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Simple</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Markdown</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Table</td>
+</tr>
+</tbody>
+</table>
+<h3 id="code-hilighting">Code Hilighting</h3>
+<div class="codehilite" style="background: #272822"><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 1</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 2</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 3</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 4</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 5</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 6</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 7</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 8</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"> 9</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">10</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">11</span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">12</span></pre></div></td><td class="code"><div><pre style="line-height: 125%;"><span></span><code><span style="color: #F8F8F2">i</span> <span style="color: #FF4689">=</span> <span style="color: #AE81FF">1</span>
+<span style="color: #66D9EF">while</span> <span style="color: #F8F8F2">i</span> <span style="color: #FF4689">&lt;=</span> <span style="color: #AE81FF">100</span><span style="color: #F8F8F2">:</span>
+  <span style="color: #F8F8F2">t</span> <span style="color: #FF4689">=</span> <span style="color: #E6DB74">&#39;&#39;</span>
+  <span style="color: #66D9EF">if</span> <span style="color: #F8F8F2">i</span> <span style="color: #FF4689">%</span> <span style="color: #AE81FF">3</span> <span style="color: #FF4689">==</span> <span style="color: #AE81FF">0</span><span style="color: #F8F8F2">:</span>
+    <span style="color: #F8F8F2">t</span> <span style="color: #FF4689">=</span> <span style="color: #F8F8F2">t</span> <span style="color: #FF4689">+</span> <span style="color: #E6DB74">&#39;Fizz&#39;</span>
+  <span style="color: #66D9EF">if</span> <span style="color: #F8F8F2">i</span> <span style="color: #FF4689">%</span> <span style="color: #AE81FF">5</span> <span style="color: #FF4689">==</span> <span style="color: #AE81FF">0</span><span style="color: #F8F8F2">:</span>
+    <span style="color: #F8F8F2">t</span> <span style="color: #FF4689">=</span> <span style="color: #F8F8F2">t</span> <span style="color: #FF4689">+</span> <span style="color: #E6DB74">&#39;Buzz&#39;</span>
+  <span style="color: #66D9EF">if</span> <span style="color: #F8F8F2">t</span> <span style="color: #FF4689">==</span> <span style="color: #E6DB74">&#39;&#39;</span><span style="color: #F8F8F2">:</span>
+    <span style="color: #F8F8F2">print(i)</span>
+  <span style="color: #66D9EF">else</span><span style="color: #F8F8F2">:</span>
+    <span style="color: #F8F8F2">print(t)</span>
+  <span style="color: #F8F8F2">i</span> <span style="color: #FF4689">+=</span> <span style="color: #AE81FF">1</span>
+</code></pre></div></td></tr></table></div>
+<hr style="border:none; height:2px; background-color:#ccc;">
+<div style="font-size:1.33em; display:flex; justify-content:space-between; padding:10px 0;">
+    <div></div>
+    <div><a href="/Special Thanks">Next</a></div>
+</div>
+<div style="text-align:center; font-size:0.9em; margin-top:10px;">
+    MIT License - Copyright (c) 2025 Macaw* / AMacaw
+</div>
+
+<!-- MathJax -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\(','\)']],
+    displayMath: [['\[','\]'], ['$$','$$']]
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>
