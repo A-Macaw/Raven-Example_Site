@@ -1,0 +1,19 @@
+# Raven Top Section Style Configuration
+# This file defines inline CSS variables used for the top section (header)
+# Format: VARNAME "VALUE"
+
+# Main container for the top bar area
+TOP_DIV_STYLE "display:flex; align-items:center; justify-content:space-between; padding:10px 0;"
+
+# Logo image styling
+TOP_LOGO_STYLE "max-height:60px; margin-right:15px;"
+
+# Style applied to each navigation link in the top bar
+TOP_LINK_STYLE "margin-left:15px; font-size:1.33em"
+
+# Style for the site title (h1) next to the logo
+TOP_H1_STYLE "margin:0; font-size:3em; font-style: normal;"
+
+# Horizontal rule (divider) under the top section
+TOP_HR_STYLE "border:none; height:2px; background-color:#ccc;"
+

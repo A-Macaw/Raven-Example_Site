@@ -1,0 +1,8 @@
+<hr style="{BOTTOM_HR_STYLE}">
+<div style="{BOTTOM_DIV_STYLE}">
+    <div>{prev_link_html}</div>
+    <div>{next_link_html}</div>
+</div>
+<div style="{BOTTOM_COPYRIGHT_STYLE}">
+    {copyright_text}
+</div>

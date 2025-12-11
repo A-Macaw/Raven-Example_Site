@@ -1,0 +1,1 @@
+f'<a href="/{link[:-5] if link.endswith(".html") else link}" style="{TOP_LINK_STYLE}">{name}</a>'

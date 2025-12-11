@@ -1,0 +1,19 @@
+<hr style="border:none; height:2px; background-color:#ccc;">
+
+<div style="text-align:center; font-size:0.9em; margin-top:10px;">
+    {copyright}
+</div>
+
+<!-- MathJax -->
+<script>
+window.MathJax = {
+  tex: { 
+    inlineMath: [['\\(','\\)']],
+    displayMath: [['\\[','\\]'], ['$$','$$']]
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>

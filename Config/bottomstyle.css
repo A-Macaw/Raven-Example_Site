@@ -1,0 +1,13 @@
+# Raven Bottom Section Style Configuration
+# This file defines inline CSS variables used for the bottom section (footer)
+# Format: VARNAME "VALUE"
+
+# Horizontal rule (divider) above the footer section
+BOTTOM_HR_STYLE "border:none; height:2px; background-color:#ccc;"
+
+# Container for navigation links ("Previous" / "Next") in the footer
+BOTTOM_DIV_STYLE "font-size:1.33em; display:flex; justify-content:space-between; padding:10px 0;"
+
+# Copyright text styling (centered text under navigation)
+BOTTOM_COPYRIGHT_STYLE "text-align:center; font-size:0.9em; margin-top:10px;"
+

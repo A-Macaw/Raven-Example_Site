@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #0d1b16;
+    color: #FAFAFB;
+    font-size: 12px;
+}
+
+a {
+    color: #D5698B;
+    text-decoration: underline;
+}
+
+
+

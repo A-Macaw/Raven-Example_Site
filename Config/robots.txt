@@ -1,0 +1,26 @@
+# this is a robots.txt file
+#
+# from 
+# The distant future, the year 2000
+# The world is very diffrent after the robot uprising of the year 2000
+# So now we need files to tell the robots what to do
+
+# Allow specific search engine bots
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+User-agent: DuckDuckBot
+Disallow:
+
+User-agent: KagiBot
+Disallow:
+
+User-agent: Bravebot
+Disallow:
+
+# Block all other bots
+User-agent: *
+Disallow: /

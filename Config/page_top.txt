@@ -1,0 +1,12 @@
+<div style="{TOP_DIV_STYLE}">
+    <div style="display:flex; align-items:center;">
+        <a href="/main" style="text-decoration:none; color:inherit; display:flex; align-items:center; cursor:pointer;">
+            <img src="{rel_logo_path}" alt="Logo" style="{TOP_LOGO_STYLE}">
+            <h1 style="{TOP_H1_STYLE}">{site_name}</h1>
+        </a>
+    </div>
+    <div style="text-align:right;">
+        {top_links_html}
+    </div>
+</div>
+{separator_html}

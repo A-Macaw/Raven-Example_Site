@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{page_title}</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="{local_css_name}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pygments/2.16.1/styles/monokai.min.css">
+</head>
+<body>
+{page_top}
+{article_h1_html}
+{article_date_html}
+{html_body}
+{page_bottom}
+
+<!-- MathJax -->
+<script>
+window.MathJax = {{
+  tex: {{
+    inlineMath: [['\\(','\\)']],
+    displayMath: [['\\[','\\]'], ['$$','$$']]
+  }}
+}};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</body>
+</html>
